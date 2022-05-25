@@ -10,7 +10,7 @@ const app = express();
 const PORT = 3000;
 
 Sentry.init({
-  dsn: "https://1d5df656e5504b478b422f0c0b18d53f@o1262017.ingest.sentry.io/6440469",
+  dsn: "https://184fa695734d4bb4be3b57da95b9a3f5@o1262142.ingest.sentry.io/6440646",
 });
 
 app.use(bodyParser.json());
